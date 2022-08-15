@@ -1,0 +1,41 @@
+# python
+Projects of python
+# n é o número de peças inicial e m o número máximo de peças que é possível retirar em uma rodada.
+# Se n é múltiplo de (m+1), o computador deve ser "generoso" e convidar o jogador a iniciar a partida com a frase "Você começa!", caso contrário, o computador toma a inciativa de começar o jogo, declarando "Computador começa!"
+# A estratégia do computador para ganhar consiste em deixar sempre um número de peças que seja múltiplo de (m+1) ao jogador. Caso isso não seja possível, deverá tirar o número máximo de peças possíveis.
+# A escolha da jogada inicial deve ser feita em função da estratégia vencedora, como dito anteriormente. 
+# A cada jogada, deve ser impresso na tela o estado atual do jogo, ou seja, quantas peças foram removidas na última jogada e quantas restam na mesa. Quando a última peça é removida, essa função imprime na tela a mensagem "O computador ganhou!" ou "Você ganhou!" conforme o caso.
+# A função campeonato deve realizar três partidas seguidas do jogo e, ao final, mostrar o placar dessas três partidas e indicar o vencedor do campeonato. O placar deve ser impresso na forma: Placar: Você ??? X ??? Computador
+# Dado que é possível jogar partidas individuais ou campeonatos, seu programa deve começar solicitando ao usuário que escolha se prefere jogar apenas uma partida (opção 1) ou um campeonato (opção 2).
+n=n_incial
+m=m_inicial
+
+def computador_escolhe_jogada(n,m):
+    
+    
+def usuario_escolhe_jogada(n,m):
+    n=int(input("Quantas peças?"))
+
+
+def partida():
+    n_incial=int(input("Quais os valores de n?"))
+    m_inicial=int(input("Quais os valores de m?"))
+    while n>0:
+        if (m+1)%n==0:
+            print("Você começa!")        
+            usuario_escolhe_jogada
+            computador_escolhe_jogada
+        else :
+            print("Computador começa!")
+            computador_escolhe_jogada
+            usuario_escolhe_jogada
+
+def campeonato():
+
+ 
+print("Bem-vindo ao jogo do NIM! Escolha:
+1 - para jogar uma partida isolada
+2 - para jogar um campeonato")
+
+def escolha():
+    if 
